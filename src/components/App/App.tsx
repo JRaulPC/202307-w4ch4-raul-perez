@@ -1,5 +1,7 @@
+import SlothsForm from "../SlothsForm/SlothsForm";
+
 const App = (): React.ReactElement => {
-  return <p>Holi</p>;
+  return <SlothsForm />;
 };
 
 export default App;
