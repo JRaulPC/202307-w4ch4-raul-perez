@@ -2,6 +2,12 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main-title {
+  display: flex;
+  padding-top: 250px;
+  justify-content: center;
+}
+
 .button {
   background: transparent;
   border-radius: 20px;
@@ -15,7 +21,7 @@ body {
 
 .form-container {
   display: flex;
-  padding-top: 250px;
+  padding-top: 20px;
   justify-content: center;
   gap: 15px;
 }
