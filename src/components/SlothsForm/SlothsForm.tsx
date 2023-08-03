@@ -5,10 +5,20 @@ const SlothsForm = (): React.ReactElement => {
     <div className="form-container">
       <form className="form">
         <div className="field">
-          <label className="name-field__label" htmlFor="name">
+          <label
+            aria-label="sloth name"
+            className="name-field__label"
+            htmlFor="name"
+          >
             Sloth Name
           </label>
-          <input type="text" id="name" name="" className="name-field__input" />
+          <input
+            aria-label="textbox"
+            type="text"
+            id="name"
+            name=""
+            className="name-field__input"
+          />
         </div>
         <div className="field">
           <label className="name-field__label" htmlFor="url">
@@ -21,8 +31,20 @@ const SlothsForm = (): React.ReactElement => {
             name=""
             className="name-field__input"
           />
-          <button className="button">Enviar</button>
         </div>
+        <div className="field">
+          <label className="name-field__label" htmlFor="url">
+            Fingers numbers
+          </label>
+          <input
+            type="text"
+            id="url
+          "
+            name=""
+            className="name-field__input"
+          />
+        </div>
+        <button className="button">Enviar</button>
       </form>
     </div>
   );
